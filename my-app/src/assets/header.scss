@@ -1,0 +1,31 @@
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: white;
+}
+li>a:hover{
+  color: blue;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}

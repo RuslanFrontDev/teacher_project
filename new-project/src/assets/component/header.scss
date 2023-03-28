@@ -1,0 +1,23 @@
+header{
+   background-color: blue;
+
+   .card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .row{
+         color: bisque;
+      }
+      .list{
+         ul{
+            display:flex;
+         }
+         li{
+            margin: 3px;
+            padding: 5px;
+            background-color: azure;
+            border-radius: 5px;
+         }
+      }
+   }
+}

@@ -1,0 +1,29 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 400px;
+    height: auto;
+    border: 2px dashed #999;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-image {
+    height: 200px;
+    width: 200px;
+}
